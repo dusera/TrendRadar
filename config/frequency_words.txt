@@ -332,4 +332,41 @@
 # 产业政策
 生产力
 
+# ═══════════════════════════════════════════════════════════════
+# ETF / 指数基金
+# ═══════════════════════════════════════════════════════════════
+
+[ETF]
+/ETF|交易型开放式指数基金|指数基金|场内基金|宽基ETF|行业ETF|主题ETF|跨境ETF|债券ETF|商品ETF|黄金ETF|货币ETF|红利ETF/ => ETF
+@10
+
+[ETF 资金流]
+/ETF净流入|ETF净流出|资金净流入|资金净流出|份额增加|份额减少|份额创.*新高|规模创.*新高|成交额.*ETF|ETF成交额|申购|赎回/ => ETF资金流
++ETF
+@8
+
+[宽基ETF]
+/沪深300ETF|中证500ETF|中证1000ETF|上证50ETF|创业板ETF|科创50ETF|科创100ETF|A500ETF|中证A500ETF|A50ETF|MSCI中国A50|恒生ETF|恒生科技ETF|纳指ETF|标普500ETF|日经ETF/ => 宽基ETF
+@8
+
+[行业ETF]
+/半导体ETF|芯片ETF|人工智能ETF|AI ETF|机器人ETF|新能源ETF|光伏ETF|电池ETF|军工ETF|医药ETF|创新药ETF|消费ETF|酒ETF|证券ETF|银行ETF|保险ETF|地产ETF|有色ETF|稀土ETF|煤炭ETF|油气ETF/ => 行业ETF
+@10
+
+[红利ETF]
+/红利ETF|高股息ETF|央企红利|国企红利|中证红利|红利低波|红利低波动|股息率|分红ETF/ => 红利ETF
+@6
+
+[黄金ETF]
+/黄金ETF|上海金ETF|金价|现货黄金|COMEX黄金|黄金基金|黄金股ETF/ => 黄金ETF
+@6
+
+[跨境ETF]
+/跨境ETF|QDII ETF|纳指ETF|标普ETF|标普500ETF|日经ETF|德国ETF|法国ETF|印度ETF|越南ETF|港股ETF|恒生科技ETF|中概互联ETF/ => 跨境ETF
+@8
+
+[ETF 异动]
+/ETF.*涨超|ETF.*跌超|ETF.*放量|ETF.*溢价|ETF.*折价|ETF.*停牌|ETF.*涨停|ETF.*跌停|ETF.*大涨|ETF.*大跌|ETF.*爆量|ETF.*成交额/ => ETF异动
+@8
+
 
